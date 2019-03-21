@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<title>Document</title>
+
+<style>
+
+body{
+    /* background-color: rgb(226, 226, 226); */
+    background-color: white;
+    margin: 0px;
+    text-align: center;
+}
+
+img{
+    margin: 0px;
+    /* border: black 6px outset; display: block; margin-left: auto; margin-right: auto; */
+    /* width: calc(3369px / 3); */
+    width: 90%;
+}
+
+hr{
+    margin: 69px 0px 69px 0px;
+    border-top: 1rem solid blue;
+}
+
+
+
+
+
+
+
+
+/* Component: Contains the gray background with padding which acts as the space around the content (aka margin) */
+.component
+{
+    padding: 1rem;
+    background-color: lightgray;
+    /* Role: Presentation - to show the changing color of the space around the content */
+    animation: 2s infinite alternate ease-in-out breathing-color--dark;
+}
+ 
+/* Role: Presentation */
+@keyframes breathing-color--dark
+{
+    from{ background-color: lightgray;}
+    to
+    { background-color: blue;}
+}
+ 
+/* Container: Contains the white background and text content */
+.container
+{
+    padding: 1rem;
+    background-color: white;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="component">
+<div class="container">
+<img src="img/00introtext@4x.png" alt="">
+</div>
+</div>
+
+<img src="img/01@4x.png" alt=""><p>
+<img src="img/02@4x.png" alt=""><p>
+<img src="img/03@4x.png" alt=""><p>
+<img src="img/04@4x.png" alt="">><p>
+
+
+<hr>
+<img src="img/05@4x.png" alt=""><p>
+<img src="img/06@4x.png" alt=""><p>
+<img src="img/07@4x.png" alt=""><hr>
+<img src="img/09@4x.png" alt=""><p>
+<img src="img/10@4x.png" alt=""><p>
+<img src="img/11@4x.png" alt=""><hr>
+<img src="img/12togo@4x.png" alt=""><p>
+<img src="img/12@4x.png" alt=""><p>
+<img src="img/13@4x.png" alt=""><hr>
+<img src="img/15@4x.png" alt=""><p>
+<img src="img/14@4x.png" alt=""><hr>
+<img src="img/16@4x.png" alt="">
+</body>
+</html>
