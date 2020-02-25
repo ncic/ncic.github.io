@@ -26,8 +26,9 @@ a {
 a:hover {color: #800080;}
 
 img,a img {
-    margin: 0px 0px 12px 0px;
+    margin: 0 0 12px 0;
     vertical-align: top;
+    max-width: 100% auto;
     display: inline-block;
 }
 
@@ -40,13 +41,12 @@ li {
 hr {
     margin: 50px 0 50px 0;
     height: 1px;
-    border: none;
-    /* border: 9px solid #F7403A; */
+    border: 0px solid #F7403A;
     background-color: #202020;
 }
 
 h2.post-title {
-    margin: 0px 25x 25px 25px;
+    margin: 25px 25px 25px 25px;
     color: #202020;
     text-transform: uppercase;
     /* text-transform: lowercase; */
