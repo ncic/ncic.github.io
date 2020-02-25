@@ -1,0 +1,63 @@
+html {
+    /* margin: 25px 25px; */
+    /* background-color: #808080; */
+    background-color: silver;
+    /* background-color: whitesmoke; */
+    /* background-color: linen; */
+    background-image: url(https://ncic.github.io/img/gui/backgroundNurniesGray.png);
+    font-size: 36px;
+    font-family: Verdana, Arial, sans-serif;
+    /* font-family: "MedievalSharp", cursive; */
+    /* font-family: "Josefin Sans", sans-serif; */
+    font-family: "Tenor Sans", sans-serif;
+
+    /* font-family: "Roboto Mono", monospace; */
+    /* font-family: "Space Mono", monospace; */
+    /* font-family: "IBM Plex Mono", monospace; */
+    /* font-family: "IBM Plex Sans", sans-serif; */
+}
+
+a {
+    text-decoration: none;
+    font-weight: normal;
+    color: #cccccc;
+}
+
+a:hover {color: #800080;}
+
+img,a img {
+    margin: 0px 0px 12px 0px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    padding: 6px;
+    background-color: #003300;
+}
+
+hr {
+    margin: 50px 0 50px 0;
+    height: 1px;
+    border: none;
+    /* border: 9px solid #F7403A; */
+    background-color: #202020;
+}
+
+h2.post-title {
+    margin: 0px 25x 25px 25px;
+    color: #202020;
+    text-transform: uppercase;
+    /* text-transform: lowercase; */
+    /* text-transform: capitalize; */
+}
+
+p {margin: 25px 0 0 50px;}
+
+footer img:first-child {
+    display: block;
+    background-color: linen;
+    max-width: 155px;
+    background-image: url(https://ncic.github.io/img/gui/backgroundNurniesGray.png);
+}
