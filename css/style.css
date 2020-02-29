@@ -4,7 +4,7 @@ html {
     background-color: silver;
     /* background-color: whitesmoke; */
     /* background-color: linen; */
-    background-image: url(https://ncic.github.io/img/gui/backgroundNurniesGray.png);
+    /* background-image: url(https://ncic.github.io/img/gui/backgroundNurniesGray.png); */
     /* 
     font-family: "Roboto Mono", monospace;
     font-family: "Space Mono", monospace;
@@ -97,7 +97,7 @@ footer img:first-child {
     display: block;
     background-color: linen;
     max-width: 155px;
-    background-image: url(https://ncic.github.io/img/gui/backgroundNurniesGray.png);
+    /* background-image: url(https://ncic.github.io/img/gui/backgroundNurniesGray.png); */
 }
 
 /* DEBUGGER */
