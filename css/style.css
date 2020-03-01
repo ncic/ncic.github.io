@@ -26,15 +26,11 @@ html {
 
 
 a:link {color:#0066CC;
-
     text-decoration: none;
     font-weight: normal;
-
-} /* sets normal link color */
-a:visited {color:#CC33CC;} /* sets visited link color */
-
-a:hover,
-a:active {color:#336666;} /* sets active link color */
+}
+a:visited {color:#CC33CC;}
+a:hover, a:active {color:#336666;}
 
 
 img,
