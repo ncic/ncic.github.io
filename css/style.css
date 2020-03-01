@@ -24,15 +24,18 @@ html {
     font-family: 'VT323', regular; */
 }
 
-a {
+
+a:link {color:#0066CC;
+
     text-decoration: none;
     font-weight: normal;
-    color: #cccccc;
-}
 
-a:hover {
-    color: #800080;
-}
+} /* sets normal link color */
+a:visited {color:#CC33CC;} /* sets visited link color */
+
+a:hover,
+a:active {color:#336666;} /* sets active link color */
+
 
 img,
 a img {
