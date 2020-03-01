@@ -4,7 +4,7 @@ html {
     background-color: silver;
     /* background-color: whitesmoke; */
     /* background-color: linen; */
-    /* background-image: url(https://ncic.github.io/img/gui/backgroundNurniesGray.png); */
+    background-image: url(https://ncic.github.io/img/gui/backgroundNurniesGray.png);
     /* 
     font-family: "Roboto Mono", monospace;
     font-family: "Space Mono", monospace;
@@ -60,11 +60,9 @@ li {
 
 /* /////////////////////////// */
 
-main {
-    /* padding: 50px 12px; */
-}
+main {padding: 0px 0px;}
 
-.post {padding: ›0px 12px; }
+.post {padding: ›0px 12px;}
 
 .post-title {
     font-family: 'Montserrat Subrayada', regular;
@@ -85,7 +83,7 @@ article.p {
 }
 
 hr {
-    /* margin: 0 12px; */
+    margin: 0 0;
     /* height: 1px; */
     /* border: 0px solid #008080; */
     /* background-color: #808080; */
@@ -97,27 +95,5 @@ footer img:first-child {
     display: block;
     background-color: linen;
     max-width: 155px;
-    /* background-image: url(https://ncic.github.io/img/gui/backgroundNurniesGray.png); */
-}
-
-/* DEBUGGER */
-
-#masthead {
-    background-color: white;
-}
-
-main {
-    background-color: green;
-}
-
-h2.post-title {
-    background-color: red;
-}
-
-.post {
-    background-color: purple;
-}
-
-article.p {
-    background-color: teal;
+    background-image: url(https://ncic.github.io/img/gui/backgroundNurniesGray.png);
 }
