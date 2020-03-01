@@ -51,26 +51,23 @@ a img {
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-header {
+/* header {
     background-color: linen;
-}
+} */
 
-nav,
-nav img {
-    padding: 12px 12px 36px 12px;
-    vertical-align: middle;
+nav {
+    padding: 12px 12px 12px 12px;
 }
 
 .nav-social-button {
+    padding: 8px;
     display: inline-block;
     text-align: center;
-    padding: 8px;
-    vertical-align: middle;
-    width: 128px;
 }
 
+
 .nav-social-button img {
-    max-width: 128px;
+    width: 96px;
 }
 
 /* main {margin-top: 0px;} */
@@ -92,12 +89,12 @@ article h2 {
 
 /* article p {padding: 25px 25px;} */
 
-/* hr {
-    margin: 36px 12px; */
-/* height: 1px;
+hr {
+    margin: 36px 12px;
+    /* height: 1px;
     border: 0px solid #808080;
-    background-color: #404040;
-} */
+    background-color: #404040; */
+}
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
