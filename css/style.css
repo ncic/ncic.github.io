@@ -70,7 +70,7 @@ nav img {
 }
 
 .nav-social-button img {
-    width: 128px;
+    max-width: 128px;
 }
 
 /* main {margin-top: 0px;} */
