@@ -1,14 +1,14 @@
 html {
-
-    margin: 25px 25px;
-
-    background-image: url(https://ncic.github.io/img/gui/backgroundNurniesGray.png);
+    /* margin: 25px 25px; */
+    /* background-image: url(https://ncic.github.io/img/gui/backgroundNurniesGray.png); */
     background-color: silver;
+
+    /* background-color: #323334; */
+
 
     /* background-color: #808080;
     background-color: whitesmoke;
     background-color: linen;
-    
     font-family: "Roboto Mono", monospace;
     font-family: "Space Mono", monospace;
     font-family: "IBM Plex Mono", monospace;
@@ -24,72 +24,84 @@ html {
     font-family: 'VT323', regular; */
 }
 
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-a:link {color:#0066CC;
+a:link {
+    color: blue;
     text-decoration: none;
     font-weight: normal;
 }
-a:visited {color:#CC33CC;}
-a:hover, a:active {color:#336666;}
 
+a:visited {
+    color: purple;
+}
+
+a:hover,
+a:active {
+    color: red;
+}
 
 img,
 a img {
-    margin: 0 0 12px 0;
+    margin-bottom: 12px;
     vertical-align: top;
     max-width: 100% auto;
     display: inline-block;
 }
 
-/* /////////////////////////// */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-#masthead {
-    text-align: default;
-    padding: 36px 36px;
+header {
+    background-color: linen;
 }
 
-ul {
-    display: inline-block;
+nav,
+nav img {
+    padding: 12px 12px 36px 12px;
     vertical-align: middle;
 }
 
-li {
-    padding: 6px;
-    background-color: #003300;
+.nav-social-button {
+    display: inline-block;
+    text-align: center;
+    padding: 8px;
+    vertical-align: middle;
+    width: 128px;
 }
 
-/* /////////////////////////// */
+.nav-social-button img {
+    width: 128px;
+}
 
-main {padding: 0px 0px;}
+/* main {margin-top: 0px;} */
 
-.post {padding: ›0px 12px;}
+article {
+    padding: 12px 12px;
+    color: #363636;
+    margin: 36px 0;
+}
 
-.post-title {
-    font-family: 'Montserrat Subrayada', regular;
+article h2 {
     font-family: 'Inconsolata', regular;
-    font-family: 'VT323', regular;
 
     font-size: 22px;
-    /* margin: 36px 0; */
-    color: #0215be;
+    margin-bottom: 36px;
     text-transform: uppercase;
     /* text-transform: lowercase; */
     /* text-transform: capitalize; */
 }
 
-article.p {
-    /* margin: 25px 25px; */
-    padding: 25px 25px;
-}
+/* article p {padding: 25px 25px;} */
 
-hr {
-    margin: 0 0;
-    /* height: 1px; */
-    /* border: 0px solid #008080; */
-    /* background-color: #808080; */
-}
+/* hr {
+    margin: 36px 12px; */
+/* height: 1px;
+    border: 0px solid #808080;
+    background-color: #404040;
+} */
 
-/* /////////////////////////// */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
 
 footer img:first-child {
     display: block;

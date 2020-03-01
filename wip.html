@@ -6,83 +6,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
     <title>Ncic</title>
-
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <!-- <link rel="stylesheet" type="text/css" href="css/normalize.css">  -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
-
     <link href="https://fonts.googleapis.com/css?family=
-
 Montserrat
-|
-Montserrat+Subrayada
-|
-Tenor+Sans|Josefin+Sans
-|
-MedievalSharp
-|
-Space+Mono
-|
-Roboto+Mono
-|
-Noto+Sans
-|
-Courier+Prime
-|
-Inconsolata
-|
-VT323
-|
-Cabin
-
+|Montserrat+Subrayada
+|Tenor+Sans|Josefin+Sans
+|MedievalSharp
+|Space+Mono
+|Roboto+Mono
+|Noto+Sans
+|Courier+Prime
+|Inconsolata
+|VT323
+|Cabin
 &display=swap" rel="stylesheet">
 
+    <style type="text/css">
+        /* DEBUGGER */
+        /* 
+        header {
+            background-color: white;
+        }
 
-<!-- <style type="text/css">
-    /* DEBUGGER */
-        #masthead {background-color: white;}
-        main {background-color: green;}
-        h2.post-title {background-color: red;}
-        .post {background-color: purple;}
-        article.p {background-color: teal;}
- </style> -->
+
+        main {
+            background-color: green;
+        }
+
+        article h2 {
+            background-color: red;
+        }
+
+        article {
+            background-color: purple;
+        }
+
+        article p {
+            background-color: blue;
+        }
+ */
+        .debugger-hud p {
+            display: inline-block;
+        }
+
+        .debugger-hud {
+            display: none;
+        }
+    </style>
 
 </head>
 
 <body>
 
-<header id="masthead">
-<div class="masthead-item">
+    <div class="debugger-hud">
+        <p style="color: black;background-color: white;">header</p>
+        <p style="color: white;background-color: green;">main</p>
+        <p style="color: white;background-color: purple;">article</p>
+        <p style="color: white;background-color: red;">article h2</p>
+        <p style="color: white;background-color: blue;">article p</p>
+    </div>
 
-<nav>
-    <section style="color: black;"><a href="#" style="margin:5px;">ABOUT/CV/CLIENTLOGOLIST</section>
+    <header>
+        <section
+        style="
+        padding: 12px;
+        font-size: 36px;
+        background-color: #0500a1;
+        color: white;
+        font-family: 'Montserrat Subrayada', regular;
+        ">
+        
+        <a href="#">ABOUT</a><br>
+        <a href="#">CV</a>
+        </section>
 
-<ul>
-<img src="https://ncic.github.io/img/gui/iconGlobe.svg" style="width:55px;" alt="">
-<li><a href="http://instagram.com/ncic">Instagram</a></li>
-<li><a href="http://facebook.com/stefan.narancic">Facebook</a></li>
-<li><a href="https://twitter.com/sncic">Twitter</a></li>
-<li><a href="#" style="margin:5px;">Mail</a></li>
-</ul>
-<!-- <p style="color: black;background-color: white;">white masthead</p><br>
-<p style="color: white;background-color: green;">green main</p><br>
-<p style="color: white;background-color: purple;">purple article class post</p><br>
-<p style="color: white;background-color: red;">red h2 class post title</p><br>
-<p style="color: white;background-color: teal;">teal article p paragraf</p><br> -->
- </nav>
+        <nav>
+<!-- 
+            <div class="nav-social-button" style="background-color:#c0c0c0">
+                <br>
+                <a href="#">About</a><br><br>
+                <a href="#">CV</a><br><br>
+                <a href="#">Client Logo List</a>
+            </div>
+ -->
+            <div class="nav-social-button">
+                <a href="http://instagram.com/ncic">
+                    <img src="https://ncic.github.io/img/gui/socialOfficial/glyph-logo_May2016.png" alt="">
+                </a>
+                <br>
+                <a href="http://instagram.com/ncic">Instagram</a>
+            </div>
 
+            <div class="nav-social-button">
+                <a href="http://facebook.com/stefan.narancic">
+                    <img src="https://ncic.github.io/img/gui/socialOfficial/iconSocialFacebook.svg" alt="">
+                </a>
+                <br>
+                <a href="http://facebook.com/stefan.narancic">Facebook</a>
+            </div>
 
+            <div class="nav-social-button">
+                <a href="https://twitter.com/sncic">
+                    <img src="https://ncic.github.io/img/gui/socialOfficial/iconSocialTwitterBlue.svg" alt="">
+                </a>
+                <br>
+                <a href="https://twitter.com/sncic">Twitter</a>
+            </div>
+
+            <div class="nav-social-button">
+                <a href="#">
+                <img src="https://ncic.github.io/img/gui/iconSocialMail.svg" alt="">
+                </a>
+                <br>
+                <a href="#">Mail</a>
+            </div>
+
+        </nav>
 
     </header>
 
     <main>
 
-        <article class="post">
-            
-            <h2 class="post-title">Special Operators</h2>
-            
+        <article>
+
+            <h2>Special Operators</h2>
+
             <p>
 
                 <a href="file:///C:/Users/ncic/Dropbox/instaSpecials/1@4x.png">
@@ -94,8 +145,9 @@ Cabin
                     " alt="">
                 </a>
 
-                <a href="file:///C:/Users/ncic/Dropbox/instaSpecials/0.png">
-                    <img src="file:///C:/Users/ncic/Dropbox/instaSpecials/0.png" style="
+                <a href="file:///Users/ncic/pCloud%20Sync/ASSETS%20-%20PUBL/polarPortfolioDecks/instaSpecials/0.png">
+                    <img src="file:///Users/ncic/pCloud%20Sync/ASSETS%20-%20PUBL/polarPortfolioDecks/instaSpecials/0.png"
+                        style="
                         max-height:999px;
                         max-width:100%;
                         height:auto;
@@ -138,93 +190,103 @@ Cabin
                         height:auto;
                         width:auto;
                     " alt="">
-                </a>   
+                </a>
 
             </p>
-            
+
         </article>
 
         <hr> <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-        <article class="post">
-            <h2 class="post-title">Digital Publication Elements for the Builders Venture Capitalist Firm</h2>
+        <article>
+
+            <h2>Digital Publication Elements for the Builders Venture Capitalist Firm</h2>
+
             <p>
-                <a href="https://ncic.github.io/img/ncic/buildersElements/1.png"><img src="https://ncic.github.io/img/ncic/buildersElements/thumbs/1.png"></a>
-                <a href="https://ncic.github.io/img/ncic/buildersElements/2.png"><img src="https://ncic.github.io/img/ncic/buildersElements/thumbs/2.png"></a>
-                <a href="https://ncic.github.io/img/ncic/buildersElements/3.png"><img src="https://ncic.github.io/img/ncic/buildersElements/thumbs/3.png"></a>
-                <a href="https://ncic.github.io/img/ncic/buildersElements/4.png"><img src="https://ncic.github.io/img/ncic/buildersElements/thumbs/4.png"></a>
-                <a href="https://ncic.github.io/img/ncic/buildersElements/5.png"><img src="https://ncic.github.io/img/ncic/buildersElements/thumbs/5.png"></a>
-                <a href="https://ncic.github.io/img/ncic/buildersElements/6.png"><img src="https://ncic.github.io/img/ncic/buildersElements/thumbs/6.png"></a>
-                <a href="https://ncic.github.io/img/ncic/buildersElements/6.gif"><img src="https://ncic.github.io/img/ncic/buildersElements/thumbs/6.gif"></a>
-                <a href="https://ncic.github.io/img/ncic/buildersElements/7.png"><img src="https://ncic.github.io/img/ncic/buildersElements/thumbs/7.png"></a>
+                <a href="https://ncic.github.io/img/ncic/buildersElements/1.png"><img
+                        src="https://ncic.github.io/img/ncic/buildersElements/thumbs/1.png"></a>
+                <a href="https://ncic.github.io/img/ncic/buildersElements/2.png"><img
+                        src="https://ncic.github.io/img/ncic/buildersElements/thumbs/2.png"></a>
+                <a href="https://ncic.github.io/img/ncic/buildersElements/3.png"><img
+                        src="https://ncic.github.io/img/ncic/buildersElements/thumbs/3.png"></a>
+                <a href="https://ncic.github.io/img/ncic/buildersElements/4.png"><img
+                        src="https://ncic.github.io/img/ncic/buildersElements/thumbs/4.png"></a>
+                <a href="https://ncic.github.io/img/ncic/buildersElements/5.png"><img
+                        src="https://ncic.github.io/img/ncic/buildersElements/thumbs/5.png"></a>
+                <a href="https://ncic.github.io/img/ncic/buildersElements/6.png"><img
+                        src="https://ncic.github.io/img/ncic/buildersElements/thumbs/6.png"></a>
+                <a href="https://ncic.github.io/img/ncic/buildersElements/6.gif"><img
+                        src="https://ncic.github.io/img/ncic/buildersElements/thumbs/6.gif"></a>
+                <a href="https://ncic.github.io/img/ncic/buildersElements/7.png"><img
+                        src="https://ncic.github.io/img/ncic/buildersElements/thumbs/7.png"></a>
 
-<br>
+                <br>
 
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo itaque consequuntur qui maiores aperiam, atque eveniet. Odit magnam inventore, quia ducimus facere et tenetur, nesciunt blanditiis rerum cupiditate illum nemo.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo itaque consequuntur qui maiores
+                aperiam, atque eveniet. Odit magnam inventore, quia ducimus facere et tenetur, nesciunt blanditiis rerum
+                cupiditate illum nemo.
 
             </p>
 
-            <hr> 
-
         </article>
 
-        <article class="post">
+        <hr> <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-            <h2 class="post-title">Polar Graphics Round 10 (Carhartt Collaboration)</h2>
+        <article>
+
+            <h2>Polar Graphics Round 10 (Carhartt Collaboration)</h2>
 
             <p>
 
-            
-                    <a
-                        href="https://ncic.github.io/img/ncic/psc/polarR10Carhartt/polarR10-1CarharttPontusDrawingsFromTheGlypt.png">
-                        <img src="https://ncic.github.io/img/ncic/psc/polarR10Carhartt/polarR10-1CarharttPontusDrawingsFromTheGlypt.png"
-                            style="max-width:500px;" alt="">
-                    </a>
-    <br>
 
-                    <a href="https://ncic.github.io/img/ncic/psc/polarR10Carhartt/polarR10-2Marquis.jpg">
-                        <img src="https://ncic.github.io/img/ncic/psc/polarR10Carhartt/polarR10-2Marquis.jpg" style="
+                <a
+                    href="https://ncic.github.io/img/ncic/psc/polarR10Carhartt/polarR10-1CarharttPontusDrawingsFromTheGlypt.png">
+                    <img src="https://ncic.github.io/img/ncic/psc/polarR10Carhartt/thumbs/polarR10-1CarharttPontusDrawingsFromTheGlypt.png"
+                        style="max-width:500px;" alt="">
+                </a>
+                <br>
+
+                <a href="https://ncic.github.io/img/ncic/psc/polarR10Carhartt/polarR10-2Marquis.jpg">
+                    <img src="https://ncic.github.io/img/ncic/psc/polarR10Carhartt/thumbs/polarR10-2Marquis.jpg" style="
                         max-width:700px;
                         border-radius: 4px;
                         -webkit-border-radius: 4px;
                         -moz-border-radius: 4px;
                         -o-border-radius: 4px;
                     " alt="">
-                    </a>
+                </a>
 
-                    <a href="https://ncic.github.io/img/ncic/psc/polarR10Carhartt/polarR10-3MarquisClose.jpg">
-                        <img src="https://ncic.github.io/img/ncic/psc/polarR10Carhartt/polarR10-3MarquisClose.jpg"
-                            style="
+                <a href="https://ncic.github.io/img/ncic/psc/polarR10Carhartt/polarR10-3MarquisClose.jpg">
+                    <img src="https://ncic.github.io/img/ncic/psc/polarR10Carhartt/thumbs/polarR10-3MarquisClose.jpg" style="
                         max-width:700px;
                         border-radius: 4px;
                         -webkit-border-radius: 4px;
                         -moz-border-radius: 4px;
                         -o-border-radius: 4px;
                     " alt="">
-                    </a>
+                </a>
 
-                    <br>
+                <br>
 
-                    <a href="https://ncic.github.io/img/ncic/psc/polarR10Carhartt/polarR10-4BustFront.jpg">
-                        <img src="https://ncic.github.io/img/ncic/psc/polarR10Carhartt/polarR10-4BustFront.jpg" style="
+                <a href="https://ncic.github.io/img/ncic/psc/polarR10Carhartt/polarR10-4BustFront.jpg">
+                    <img src="https://ncic.github.io/img/ncic/psc/polarR10Carhartt/thumbs/polarR10-4BustFront.jpg" style="
                         max-width:700px;
                         border-radius: 4px;
                         -webkit-border-radius: 4px;
                         -moz-border-radius: 4px;
                         -o-border-radius: 4px;
                     " alt="">
-                    </a>
+                </a>
 
-
-                    <a href="https://ncic.github.io/img/ncic/psc/polarR10Carhartt/polarR10-5BustBack.jpg">
-                        <img src="https://ncic.github.io/img/ncic/psc/polarR10Carhartt/polarR10-5BustBack.jpg" style="
+                <a href="https://ncic.github.io/img/ncic/psc/polarR10Carhartt/polarR10-5BustBack.jpg">
+                    <img src="https://ncic.github.io/img/ncic/psc/polarR10Carhartt/thumbs/polarR10-5BustBack.jpg" style="
                         max-width:700px;
                         border-radius: 4px;
                         -webkit-border-radius: 4px;
                         -moz-border-radius: 4px;
                         -o-border-radius: 4px;
                     " alt="">
-                    </a>
+                </a>
 
             </p>
 
@@ -234,9 +296,9 @@ Cabin
 
         <hr> <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-        <article class="post">
+        <article>
 
-            <h2 class="post-title">Polar Graphics Round 9</h2>
+            <h2>Polar Graphics Round 9</h2>
 
             <p>
                 <a href="https://ncic.github.io/img/ncic/psc/polarR9/polarR9-1PontusShamanicRide.png">
@@ -281,9 +343,9 @@ Cabin
 
         <hr> <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-        <article class="post">
+        <article>
 
-            <h2 class="post-title">Polar Skate Co. Untitled Head</h2>
+            <h2>Polar Skate Co. Untitled Head</h2>
 
             <p>
                 <a href="https://ncic.github.io/img/ncic/psc/untitledHead/untitledHead.gif">
@@ -301,9 +363,9 @@ Cabin
 
         <hr> <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-        <article class="post">
+        <article>
 
-            <h2 class="post-title">Polar Speedy P Logo</h2>
+            <h2>Polar Speedy P Logo</h2>
 
             <p>
                 <a href="https://ncic.github.io/img/ncic/psc/speedyP/speedyP.gif">
@@ -386,9 +448,9 @@ Cabin
 
         <hr> <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-        <article class="post">
+        <article>
 
-            <h2 class="post-title">Polar Skate Co. Board Graphics Round 8</h2>
+            <h2>Polar Skate Co. Board Graphics Round 8</h2>
 
             <p>
                 <a href="https://ncic.github.io/img/ncic/psc/polarR8/polarR8-1hjalteOneHourSession.png">
@@ -420,9 +482,9 @@ Cabin
 
         <hr> <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-        <article class="post">
+        <article>
 
-            <h2 class="post-title">Illustrations for Interview with Vladimir Sorokin in the Danish “Atlas Magazine”
+            <h2>Illustrations for Interview with Vladimir Sorokin in the Danish “Atlas Magazine”
                 Issue #1</h2>
 
             <p>
@@ -501,9 +563,9 @@ Cabin
 
         <hr> <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-        <article class="post">
+        <article>
 
-            <h2 class="post-title">Polar Board Graphics Round 7</h2>
+            <h2>Polar Board Graphics Round 7</h2>
 
             <figure>
                 <a href="https://ncic.github.io/img/ncic/psc/polarR7/polarR7-1HjalteCainAndAbel.png">
@@ -532,9 +594,9 @@ Cabin
 
         <hr> <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-        <article class="post">
+        <article>
 
-            <h2 class="post-title">E-Book Novel Cover Illustration for Pupillforlag.Se “Doktorn Och Demonen” by Johannes
+            <h2>E-Book Novel Cover Illustration for Pupillforlag.Se “Doktorn Och Demonen” by Johannes
                 Lundborg</h2>
 
             <a href="https://ncic.github.io/img/ncic/doktornOchDemonen.png">
@@ -549,9 +611,9 @@ Cabin
 
         <hr> <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-        <article class="post">
+        <article>
 
-            <h2 class="post-title">Polar Board Graphics Round 6</h2>
+            <h2>Polar Board Graphics Round 6</h2>
 
             <a href="https://ncic.github.io/img/ncic/psc/polarR6/polarR6-1HjalteTombGuardian.png">
                 <img src="https://ncic.github.io/img/ncic/psc/polarR6/polarR6-1HjalteTombGuardian.png" alt=""></a>
@@ -591,9 +653,9 @@ Cabin
 
         <!-- 
 
-        <article class="post">
+        <article>
 
-         <h2 class="post-title">Untitled</h2>
+         <h2>Untitled</h2>
 
         <div style="background-image:url(https://ncic.github.io/img/gui/backgroundBlackCammo2.png);padding-top:100px;padding-bottom:100px;text-align:center;border-radius:6px;-webkit-border-radius:6px;-moz-border-radius:6px;-o-border-radius:6px;">
             <a href="https://ncic.github.io/img/ncic/tvHorse.jpg">
@@ -629,9 +691,9 @@ Cabin
 </article>
   -->
 
-        <article class="post">
+        <article>
 
-            <h2 class="post-title">Polar Board Graphics Round 5</h2>
+            <h2>Polar Board Graphics Round 5</h2>
 
             <a href="https://ncic.github.io/img/ncic/psc/polarR5/polarR5-1ParanormalHappening.png">
                 <img src="https://ncic.github.io/img/ncic/psc/polarR5/polarR5-1ParanormalHappening.png" alt=""></a>
@@ -705,9 +767,9 @@ Cabin
 
         <hr> <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-        <article class="post">
+        <article>
 
-            <h2 class="post-title">8 Exhibition Pieces Kcdc Williamsburg Brooklyn 2012.</h2>
+            <h2>8 Exhibition Pieces Kcdc Williamsburg Brooklyn 2012.</h2>
 
             <a
                 href="https://ncic.github.io/img/ncic/psc/kcdcWilliamsburgBrooklynExhibition/kcdcWilliamsburgBrooklynExhibition1.jpg">
@@ -761,9 +823,9 @@ Cabin
 
         <hr> <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-        <article class="post">
+        <article>
 
-            <h2 class="post-title">Atlas Parking</h2>
+            <h2>Atlas Parking</h2>
 
             <a href="https://ncic.github.io/img/ncic/atlasParking/atlasParking.jpg">
                 <img src="https://ncic.github.io/img/ncic/atlasParking/atlasParking.jpg" alt=""></a>
@@ -778,7 +840,7 @@ Cabin
 
         <hr> <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-        <!--<article class="post">
+        <!--<article>
 
          <p>UNTITLED</p>
 
@@ -791,9 +853,9 @@ Cabin
 
         </article>-->
 
-        <article class="post">
+        <article>
 
-            <h2 class="post-title">Polar Board Graphics Round 4</h2>
+            <h2>Polar Board Graphics Round 4</h2>
 
             <a href="https://ncic.github.io/img/ncic/psc/polarR4/polarR3-1DimensionTravelers.png">
                 <img src="https://ncic.github.io/img/ncic/psc/polarR4/polarR3-1DimensionTravelers.png" alt=""></a>
@@ -809,9 +871,9 @@ Cabin
 
         <hr> <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-        <article class="post">
+        <article>
 
-            <h2 class="post-title">Converse/Polar Skate.Co Wwc Poster</h2>
+            <h2>Converse/Polar Skate.Co Wwc Poster</h2>
 
             <a href="https://ncic.github.io/img/ncic/conversePolarWwcPoster.png">
                 <img src="https://ncic.github.io/img/ncic/conversePolarWwcPoster.png" style="max-width:640px;"
@@ -821,9 +883,9 @@ Cabin
 
         <hr> <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-        <article class="post">
+        <article>
 
-            <h2 class="post-title">Cg</h2>
+            <h2>Cg</h2>
 
             <a href="https://ncic.github.io/img/ncic/cg/cg1.png">
                 <img src="https://ncic.github.io/img/ncic/cg/cg1.png" alt=""></a><br>
@@ -840,9 +902,9 @@ Cabin
 
         <hr> <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-        <article class="post">
+        <article>
 
-            <h2 class="post-title">Polar Board Graphics 3</h2>
+            <h2>Polar Board Graphics 3</h2>
 
             <a href="https://ncic.github.io/img/ncic/psc/polarR3/polarR3-1Antidote.png">
                 <img src="https://ncic.github.io/img/ncic/psc/polarR3/polarR3-1Antidote.png" alt=""></a>
@@ -861,9 +923,9 @@ Cabin
 
         <hr> <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-        <article class="post">
+        <article>
 
-            <h2 class="post-title">Polar Board Graphics 2</h2>
+            <h2>Polar Board Graphics 2</h2>
 
             <a href="https://ncic.github.io/img/ncic/psc/polarR2/polarR2-1Footpick.png">
                 <img src="https://ncic.github.io/img/ncic/psc/polarR2/polarR2-1Footpick.png" alt=""></a>
@@ -893,9 +955,9 @@ Cabin
 
         </article>
 
-        <article class="post">
+        <article>
 
-            <h2 class="post-title">Polar Board Graphics Round 1</h2>
+            <h2>Polar Board Graphics Round 1</h2>
 
             <a href="https://ncic.github.io/img/ncic/psc/polarR1/polarR1-1UnhealthyVeggies.png">
                 <img src="https://ncic.github.io/img/ncic/psc/polarR1/polarR1-1UnhealthyVeggies.png" alt=""></a>
@@ -928,9 +990,9 @@ Cabin
 
         <hr> <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
 
-        <article class="post">
+        <article>
 
-            <h2 class="post-title">Polar Skate Co. Branding</h2>
+            <h2>Polar Skate Co. Branding</h2>
 
             <a href="https://ncic.github.io/img/ncic/psc/polarLogo/polarLogo1.png">
                 <img src="https://ncic.github.io/img/ncic/psc/polarLogo/polarLogo1.png" alt=""></a>
