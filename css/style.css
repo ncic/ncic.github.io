@@ -1,11 +1,14 @@
 html {
-    /* margin: 25px 25px; */
-    /* background-color: #808080; */
-    background-color: silver;
-    /* background-color: whitesmoke; */
-    /* background-color: linen; */
+
+    margin: 25px 25px;
+
     background-image: url(https://ncic.github.io/img/gui/backgroundNurniesGray.png);
-    /* 
+    background-color: silver;
+
+    /* background-color: #808080;
+    background-color: whitesmoke;
+    background-color: linen;
+    
     font-family: "Roboto Mono", monospace;
     font-family: "Space Mono", monospace;
     font-family: "IBM Plex Mono", monospace;
@@ -18,9 +21,7 @@ html {
     font-family: 'Montserrat Subrayada', ;regular
     font-family: 'Noto Sans', regular;
     font-family: 'Inconsolata', regular;
-    font-family: 'VT323', regular;
- */
-
+    font-family: 'VT323', regular; */
 }
 
 a {
