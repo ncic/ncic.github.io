@@ -2,6 +2,7 @@ html {
     margin: 13px;
     background-image: url(https://ncic.github.io/img/gui/backgroundNurniesGray.png);
     background-color: silver;
+    font-family: "Roboto Mono", monospace;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -37,7 +38,6 @@ a img {
     padding: 12px;
     display: inline-block;
 
-    font-family: "Roboto Mono", monospace;
 
     font-size: 18px;
     line-height: 24px;
@@ -52,12 +52,13 @@ article {
 }
 
 article h2 {
-    font-family: "Roboto Mono", monospace;
     margin-bottom: 36px;
     text-transform: uppercase;
 }
 
-/* article p {padding: 25px 25px;} */
+article p {
+    padding: 25px 25px;
+}
 
 hr {
     margin: 36px 0px;
@@ -70,16 +71,15 @@ hr {
 
 footer img:first-child {
     display: block;
-    background-color: linen;
     max-width: 155px;
     background-image: url(https://ncic.github.io/img/gui/backgroundNurniesGray.png);
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-        /* DEBUGGER */
+/* DEBUGGER */
 
-        /*
+/*
         header {background-color: white; padding: 5px;}
         nav {background-color: yellow;}
         main {background-color: green;}
@@ -88,10 +88,11 @@ footer img:first-child {
         article p { background-color: blue;}
         */
 
-        .debugger-hud {
-            display: none;
-        }
-        .debugger-hud p {
-            font-family: inconsolata, monospace;
-            display: inline-block;
-        }
+.debugger-hud {
+    display: none;
+}
+
+.debugger-hud p {
+    font-family: inconsolata, monospace;
+    display: inline-block;
+}
