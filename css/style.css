@@ -1,8 +1,10 @@
-html {
+body {
     margin: 13px;
     background-image: url(https://ncic.github.io/img/gui/backgroundNurniesGray.png);
     background-color: silver;
     font-family: "Roboto Mono", monospace;
+    font-size: 18px;
+    line-height: 24px;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -10,16 +12,18 @@ html {
 a:link {
     color: blue;
     text-decoration: none;
-    font-weight: normal;
 }
 
 a:visited {
     color: purple;
 }
 
-a:hover,
-a:active {
+a:hover {
     color: red;
+}
+
+a:active {
+    color: green;
 }
 
 img,
@@ -32,15 +36,11 @@ a img {
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-.nav-menu {
+.nav-soc {
     vertical-align: top;
     background-color: linen;
     padding: 12px;
     display: inline-block;
-
-
-    font-size: 18px;
-    line-height: 24px;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -51,7 +51,7 @@ article {
     margin: 36px 0;
 }
 
-article h2 {
+.atitle {
     margin-bottom: 36px;
     text-transform: uppercase;
 }
@@ -79,14 +79,17 @@ footer img:first-child {
 
 /* DEBUGGER */
 
-/*
-        header {background-color: white; padding: 5px;}
-        nav {background-color: yellow;}
-        main {background-color: green;}
-        article h2 {background-color: red;}
-        article {background-color: purple; }
-        article p { background-color: blue;}
-        */
+/* 
+body {background-color: pink; background-image: none; padding: 5px;}
+nav {background-color: yellow; padding: 5px;}
+header {background-color: white; padding: 5px;}
+nav {background-color: yellow; padding: 5px;}
+main {background-color: green; padding: 5px;}
+.atitle {background-color: red; padding: 5px;}
+article {background-color: purple; padding: 5px;}
+article p { background-color: blue; padding: 5px;}
+hr  { background-color: turquoise; padding: 5px;}
+*/
 
 .debugger-hud {
     display: none;
