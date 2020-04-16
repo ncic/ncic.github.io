@@ -53,8 +53,8 @@ article {
 
 .atitle {
     margin-bottom: 36px;
-    text-transform: none;
-  color:none;
+    text-transform: uppercase;
+  color:purple;
 /*   display:none; */
 }
 
