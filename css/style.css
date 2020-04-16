@@ -53,7 +53,9 @@ article {
 
 .atitle {
     margin-bottom: 36px;
-    text-transform: uppercase;
+    text-transform: none;
+  color:none;
+/*   display:none; */
 }
 
 article p {
@@ -64,7 +66,7 @@ hr {
     margin: 36px 0px;
     height: 1px;
     border: 0px solid #808080;
-    background-color: rgb(161, 161, 161);
+    background-color: darkgray;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
