@@ -54,8 +54,8 @@ article {
 .atitle {
     margin-bottom: 36px;
     text-transform: uppercase;
-  color:purple;
-/*   display:none; */
+    color: purple;
+    /*   display:none; */
 }
 
 article p {
