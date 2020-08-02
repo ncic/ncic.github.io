@@ -1,80 +1,80 @@
 body {
-    margin: 13px;
-    background-image: url(https://ncic.github.io/img/gui/backgroundNurniesGray.png);
-    background-color: silver;
-    font-family: "Roboto Mono", monospace;
-    font-size: 18px;
-    line-height: 24px;
+  margin: 13px;
+  background-image: url(https://ncic.github.io/img/gui/backgroundNurniesGray.png);
+  background-color: silver;
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 a:link {
-    color: blue;
-    text-decoration: none;
+  color: blue;
+  text-decoration: none;
 }
 
 a:visited {
-    color: purple;
+  color: purple;
 }
 
 a:hover {
-    color: red;
+  color: red;
 }
 
 a:active {
-    color: green;
+  color: green;
 }
 
 img,
 a img {
-    margin-bottom: 12px;
-    vertical-align: top;
-    max-width: 100% auto;
-    display: inline-block;
+  margin-bottom: 12px;
+  vertical-align: top;
+  max-width: 100% auto;
+  display: inline-block;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 .nav-soc {
-    vertical-align: top;
-    background-color: linen;
-    padding: 12px;
-    display: inline-block;
+  vertical-align: top;
+  background-color: linen;
+  padding: 12px;
+  display: inline-block;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 article {
-    padding: 12px 12px;
-    color: #363636;
-    margin: 36px 0;
+  padding: 12px 12px;
+  color: #363636;
+  margin: 36px 0;
 }
 
 .atitle {
-    margin-bottom: 36px;
-    text-transform: uppercase;
-    color: purple;
-    /*   display:none; */
+  margin-bottom: 36px;
+  text-transform: uppercase;
+  color: purple;
+  /*   display:none; */
 }
 
 article p {
-    padding: 25px 25px;
+  padding: 25px 25px;
 }
 
 hr {
-    margin: 36px 0px;
-    height: 1px;
-    border: 0px solid #808080;
-    background-color: darkgray;
+  margin: 36px 0px;
+  height: 1px;
+  border: 0px solid #808080;
+  background-color: darkgray;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 footer img:first-child {
-    display: block;
-    max-width: 155px;
-    background-image: url(https://ncic.github.io/img/gui/backgroundNurniesGray.png);
+  display: block;
+  max-width: 155px;
+  background-image: url(https://ncic.github.io/img/gui/backgroundNurniesGray.png);
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -94,10 +94,10 @@ hr  { background-color: turquoise; padding: 5px;}
 */
 
 .debugger-hud {
-    display: none;
+  display: none;
 }
 
 .debugger-hud p {
-    font-family: inconsolata, monospace;
-    display: inline-block;
+  font-family: inconsolata, monospace;
+  display: inline-block;
 }
